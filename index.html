@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechNova Solutions - Solusi Digital Terpercaya untuk Bisnis Anda">
+    <title>TechNova Solutions - Company Profile</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== PRELOADER ==================== -->
+    <div class="preloader" id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <i class="fas fa-rocket"></i>
+                    <span>TechNova</span>
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#about" class="nav-link">Tentang</a></li>
+                    <li><a href="#services" class="nav-link">Layanan</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#team" class="nav-link">Tim</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimoni</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button class="btn-quote" onclick="scrollToContact()">
+                        <i class="fas fa-paper-plane"></i> Minta Penawaran
+                    </button>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-aos="fade-down">
+                    <i class="fas fa-award"></i> Trusted Digital Partner Since 2015
+                </div>
+                
+                <h1 class="hero-title" data-aos="fade-up">
+                    Solusi Digital Inovatif untuk
+                    <span class="gradient-text">Bisnis Masa Depan</span>
+                </h1>
+                
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Kami membantu bisnis Anda berkembang dengan teknologi terkini, 
+                    strategi digital yang tepat, dan tim profesional yang berpengalaman.
+                </p>
+                
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Jelajahi Layanan
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline">
+                        <i class="fas fa-play-circle"></i> Lihat Portfolio
+                    </a>
+                </div>
+
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label">Proyek Selesai</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="120">0</div>
+                        <div class="stat-label">Klien Puas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">Tahun Pengalaman</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="25">0</div>
+                        <div class="stat-label">Tim Expert</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Tentang Kami</span>
+                <h2 class="section-title">Mengapa Memilih <span class="gradient-text">TechNova?</span></h2>
+                <p class="section-subtitle">
+                    Kami adalah mitra digital terpercaya yang telah membantu ratusan bisnis 
+                    mencapai kesuksesan melalui solusi teknologi inovatif.
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-img-wrapper">
+                        <div class="about-img-bg"></div>
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800" alt="Team Working">
+                        <div class="experience-badge">
+                            <div class="exp-number">8+</div>
+                            <div class="exp-text">Tahun<br>Pengalaman</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Misi Kami Adalah Kesuksesan Anda</h3>
+                    <p>
+                        TechNova Solutions didirikan dengan visi untuk menjadi partner digital terbaik 
+                        bagi setiap bisnis. Kami percaya bahwa teknologi yang tepat dapat mengubah 
+                        cara bisnis beroperasi dan berkembang.
+                    </p>
+                    <p>
+                        Dengan tim yang berpengalaman dan bersertifikasi, kami menyediakan solusi 
+                        yang disesuaikan dengan kebutuhan spesifik setiap klien, dari startup hingga 
+                        perusahaan besar.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Profesional & Berpengalaman</h4>
+                                <p>Tim ahli dengan sertifikasi internasional</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Solusi Customized</h4>
+                                <p>Disesuaikan dengan kebutuhan bisnis Anda</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Support 24/7</h4>
+                                <p>Dukungan teknis kapan pun Anda butuhkan</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Harga Kompetitif</h4>
+                                <p>Kualitas terbaik dengan harga yang fair</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary mt-4">
+                        <i class="fas fa-comments"></i> Hubungi Kami
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Layanan Kami</span>
+                <h2 class="section-title">Solusi Digital yang <span class="gradient-text">Komprehensif</span></h2>
+                <p class="section-subtitle">
+                    Kami menyediakan berbagai layanan digital untuk membantu bisnis Anda tumbuh dan berkembang
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Pembuatan website modern, responsif, dan SEO-friendly dengan teknologi terkini.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Landing Page</li>
+                        <li><i class="fas fa-check"></i> Company Profile</li>
+                        <li><i class="fas fa-check"></i> E-Commerce</li>
+                        <li><i class="fas fa-check"></i> Web Application</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Selengkapnya <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Aplikasi mobile native dan hybrid untuk iOS dan Android dengan performa optimal.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> iOS Development</li>
+                        <li><i class="fas fa-check"></i> Android Development</li>
+                        <li><i class="fas fa-check"></i> React Native</li>
+                        <li><i class="fas fa-check"></i> Flutter</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Selengkapnya <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Desain interface yang menarik, intuitif, dan user-friendly untuk pengalaman terbaik.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> User Research</li>
+                        <li><i class="fas fa-check"></i> Wireframing</li>
+                        <li><i class="fas fa-check"></i> Prototyping</li>
+                        <li><i class="fas fa-check"></i> Visual Design</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Selengkapnya <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategi marketing digital untuk meningkatkan brand awareness dan konversi.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> SEO Optimization</li>
+                        <li><i class="fas fa-check"></i> Social Media Marketing</li>
+                        <li><i class="fas fa-check"></i> Content Marketing</li>
+                        <li><i class="fas fa-check"></i> Google Ads</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Selengkapnya <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Infrastruktur cloud yang scalable, secure, dan cost-effective untuk bisnis Anda.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Cloud Migration</li>
+                        <li><i class="fas fa-check"></i> DevOps</li>
+                        <li><i class="fas fa-check"></i> Cloud Security</li>
+                        <li><i class="fas fa-check"></i> Monitoring</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Selengkapnya <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>IT Consulting</h3>
+                    <p>Konsultasi IT profesional untuk optimasi sistem dan strategi teknologi bisnis.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Technology Strategy</li>
+                        <li><i class="fas fa-check"></i> System Analysis</li>
+                        <li><i class="fas fa-check"></i> Process Optimization</li>
+                        <li><i class="fas fa-check"></i> Training</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Selengkapnya <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO SECTION ==================== -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Proyek yang Telah <span class="gradient-text">Kami Kerjakan</span></h2>
+                <p class="section-subtitle">
+                    Lihat beberapa proyek sukses yang telah kami selesaikan untuk berbagai klien
+                </p>
+            </div>
+
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600" alt="E-Commerce Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-tag">Web Development</span>
+                                <h3>E-Commerce Platform</h3>
+                                <p>Platform e-commerce dengan fitur lengkap dan payment gateway terintegrasi</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600" alt="Food Delivery App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-tag">Mobile App</span>
+                                <h3>Food Delivery App</h3>
+                                <p>Aplikasi delivery makanan dengan real-time tracking dan pembayaran digital</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="design" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600" alt="Dashboard Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-tag">UI/UX Design</span>
+                                <h3>Admin Dashboard</h3>
+                                <p>Dashboard analytics dengan visualisasi data yang interaktif dan modern</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-tag">Web Development</span>
+                                <h3>Corporate Website</h3>
+                                <p>Website perusahaan modern dengan CMS dan multi-bahasa</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600" alt="Fitness App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-tag">Mobile App</span>
+                                <h3>Fitness Tracking App</h3>
+                                <p>Aplikasi fitness dengan AI trainer dan health monitoring</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600" alt="Learning Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-tag">Web Development</span>
+                                <h3>E-Learning Platform</h3>
+                                <p>Platform pembelajaran online dengan video streaming dan quiz interaktif</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TEAM SECTION ==================== -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Tim Kami</span>
+                <h2 class="section-title">Kenali <span class="gradient-text">Expert Team</span> Kami</h2>
+                <p class="section-subtitle">
+                    Tim profesional berpengalaman yang siap membantu mewujudkan visi digital Anda
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up">
+                    <div class="team-img">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="CEO">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Budi Santoso</h3>
+                        <span>CEO & Founder</span>
+                        <p>10+ tahun pengalaman di industri teknologi dan business development</p>
+                    </div>
+                </div>
+
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-img">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="CTO">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Sarah Wijaya</h3>
+                        <span>CTO</span>
+                        <p>Expert dalam cloud architecture dan system design dengan sertifikasi AWS</p>
+                    </div>
+                </div>
+
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-img">
+                        <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Lead Developer">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Ahmad Fauzi</h3>
+                        <span>Lead Developer</span>
+                        <p>Full-stack developer dengan keahlian React, Node.js, dan Python</p>
+                    </div>
+                </div>
+
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-img">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="UI/UX Designer">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Dina Marlina</h3>
+                        <span>Lead UI/UX Designer</span>
+                        <p>Creative designer dengan portfolio 100+ project sukses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS SECTION ==================== 
+   // <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Testimoni</span>
+                <h2 class="section-title">Apa Kata <span class="gradient-text">Klien Kami?</span></h2>
+                <p class="section-subtitle">
+                    Kepuasan klien adalah prioritas utama kami
+                </p>
+            </div>
+
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "TechNova sangat profesional dan responsif. Website e-commerce yang mereka buat 
+                        sangat membantu meningkatkan penjualan kami hingga 150%. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Client">
+                        <div class="author-info">
+                            <h4>Rudi Hartono</h4>
+                            <span>CEO, Fashion Store</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Aplikasi mobile yang dibuat sangat user-friendly dan performa nya luar biasa. 
+                        Tim TechNova juga memberikan support yang excellent setelah project selesai."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client">
+                        <div class="author-info">
+                            <h4>Linda Kusuma</h4>
+                            <span>Founder, StartupHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Desain UI/UX yang dibuat sangat modern dan menarik. User engagement kami 
+                        meningkat signifikan setelah redesign aplikasi. Great job!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Client">
+                        <div class="author-info">
+                            <h4>Andi Prasetyo</h4>
+                            <span>Product Manager, TechCorp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="slider-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Hubungi Kami</span>
+                <h2 class="section-title">Mari Wujudkan <span class="gradient-text">Proyek Anda</span></h2>
+                <p class="section-subtitle">
+                    Punya proyek atau pertanyaan? Kami siap membantu Anda
+                </p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-box">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Alamat Kantor</h4>
+                            <p>Jl. Sudirman No. 123<br>Jakarta Pusat, 10220</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Telepon</h4>
+                            <p>+62 21 1234 5678<br>+62 812 3456 7890</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>info@technova.com<br>support@technova.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 09:00 - 18:00<br>Sabtu: 09:00 - 14:00</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telepon</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+
+                    <div class="form-success" id="formSuccess" style="display:none;">
+                        <div class="success-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Pesan Terkirim!</h3>
+                        <p>Terima kasih telah menghubungi kami. Tim kami akan segera merespon pesan Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-rocket"></i>
+                        <span>TechNova</span>
+                    </div>
+                    <p class="footer-desc">
+                        Kami adalah partner digital terpercaya yang membantu bisnis Anda 
+                        berkembang melalui solusi teknologi inovatif.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Mobile App</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Digital Marketing</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Perusahaan</h3>
+                    <ul>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#team">Tim</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Dapatkan update terbaru tentang teknologi dan tips bisnis</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechNova Solutions. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
